@@ -1,4 +1,7 @@
 {
+  "bin": {
+    "sql-db-schema-parser": "bin/sql-db-schema-parser.js"
+  },
   "name": "sql-db-schema-parser",
   "description": "Parse the text output of a MSSQL database export into JSON.",
   "keywords": [
@@ -49,5 +52,8 @@
   },
   "bugs": {
     "url": "https://github.com/IonicaBizau/sql-db-schema-parser/issues"
+  },
+  "dependencies": {
+    "tilda": "^4.4.16"
   }
 }
